@@ -1,0 +1,21 @@
+{
+  "name": "@wetendorff/testpkg02",
+  "version": "1.0.0-alpha.0",
+  "description": "Test package 2",
+  "keywords": [],
+  "author": "Lars Wetendorff Nielsen <lawn@berlingskemedia.dk>",
+  "license": "UNLICENSED",
+  "main": "lib/testpkg02.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
