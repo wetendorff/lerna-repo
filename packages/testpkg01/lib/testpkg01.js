@@ -3,5 +3,5 @@
 module.exports = testpkg01;
 
 function testpkg01() {
-  console.log("Hello from test package 1 - changed");
+  console.log("Hello from test package 1 - new change");
 }
