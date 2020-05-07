@@ -12,7 +12,7 @@ jobs:
       NPM_CONFIG_USERNAME: wetendorff
       NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      RELEASE_GH_TOKEN: ${{ RELEASE_GH_TOKEN }}
+      RELEASE_GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       RELEASE_GH_USERNAME: wetendorff
     steps:
       - uses: action/checkout@v2
