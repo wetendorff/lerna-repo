@@ -3,6 +3,73 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2020-05-07)
+
+
+### Features
+
+* add just another parameter ([e4a1654](https://github.com/wetendorff/lerna-repo/commit/e4a1654ebc541172bf168050526b6e683eb9b46a))
+
+
+
+# 1.3.0 (2020-05-07)
+
+
+### Features
+
+* add secondary parameter ([2b050d5](https://github.com/wetendorff/lerna-repo/commit/2b050d532662b1b296733a6b601d9a4f8fe1d193))
+
+
+
+## 1.2.3 (2020-05-07)
+
+
+
+## 1.2.2 (2020-05-07)
+
+
+
+## 1.2.1 (2020-05-07)
+
+
+
+# 1.2.0 (2020-05-07)
+
+
+### Features
+
+* add param to testpkg01 function ([88664a9](https://github.com/wetendorff/lerna-repo/commit/88664a98caf3235629a2f4828587e67d0700880e))
+
+
+
+# 1.1.0 (2020-05-07)
+
+
+### Bug Fixes
+
+* output from testpkg01 function ([c5a813c](https://github.com/wetendorff/lerna-repo/commit/c5a813cc972b17a1e6d323c096b0f5643c99f658))
+
+
+
+## 1.0.1 (2020-05-07)
+
+
+### Bug Fixes
+
+* change output of testpgk01 function ([af97fd4](https://github.com/wetendorff/lerna-repo/commit/af97fd46fe8b590e71d2942f0b2ce8a1fb89455d))
+
+
+
+# 1.0.0 (2020-05-07)
+
+
+
+# 1.0.0-alpha.0 (2020-05-06)
+
+
+
+
+
 # [1.3.0](https://github.com/wetendorff/lerna-repo/compare/v1.2.3...v1.3.0) (2020-05-07)
 
 
