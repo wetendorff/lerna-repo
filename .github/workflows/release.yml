@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm install
       - run: ls -la
+      - run: npm install
       - run: npm run postinstall
       - run: npm run semantic-release
