@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/wetendorff/lerna-repo/compare/v1.3.0...v1.5.0) (2020-05-07)
+
+
+### Bug Fixes
+
+* typo in parameter name ([696a6f3](https://github.com/wetendorff/lerna-repo/commit/696a6f379d1150e5ccaa639679d787d666958ddd))
+
+
+### Features
+
+* add just another parameter ([e4a1654](https://github.com/wetendorff/lerna-repo/commit/e4a1654ebc541172bf168050526b6e683eb9b46a))
+* add sum function ([0307c9b](https://github.com/wetendorff/lerna-repo/commit/0307c9b6ed6ffce34741056e6eae6004caf626a6))
+
+
+
+
+
 # [1.3.0](https://github.com/wetendorff/lerna-repo/compare/v1.2.3...v1.3.0) (2020-05-07)
 
 
