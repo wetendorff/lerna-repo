@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/wetendorff/lerna-repo/compare/v1.1.0...v1.2.0) (2020-05-07)
+
+
+### Features
+
+* add param to testpkg01 function ([88664a9](https://github.com/wetendorff/lerna-repo/commit/88664a98caf3235629a2f4828587e67d0700880e))
+
+
+
+
+
 # [1.1.0](https://github.com/wetendorff/lerna-repo/compare/v1.0.1...v1.1.0) (2020-05-07)
 
 
