@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: npm ci
       - uses: m19c/action-lerna@1.0.0
         with:
           args: bootstrap
