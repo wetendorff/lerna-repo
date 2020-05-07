@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/wetendorff/lerna-repo/compare/v1.2.3...v1.3.0) (2020-05-07)
+
+
+### Features
+
+* add secondary parameter ([2b050d5](https://github.com/wetendorff/lerna-repo/commit/2b050d532662b1b296733a6b601d9a4f8fe1d193))
+
+
+
+
+
 ## [1.2.3](https://github.com/wetendorff/lerna-repo/compare/v1.2.2...v1.2.3) (2020-05-07)
 
 **Note:** Version bump only for package @wetendorff/testpkg01
