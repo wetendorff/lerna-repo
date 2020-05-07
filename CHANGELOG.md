@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/wetendorff/lerna-repo/compare/v1.5.0...v1.5.1) (2020-05-07)
+
+
+### Bug Fixes
+
+* change parameter name ([5467691](https://github.com/wetendorff/lerna-repo/commit/54676912c701a18c49d03854f6321213c77741b4))
+
+
+
+
+
 # [1.5.0](https://github.com/wetendorff/lerna-repo/compare/v1.3.0...v1.5.0) (2020-05-07)
 
 
