@@ -1,0 +1,23 @@
+name: Semantic Release
+on:
+  push:
+    branches: [master]
+
+jobs:
+  release:
+    name: "Release packages"
+    runs-on: ubuntu-18.04
+    env:
+      NPM_CONFIG_EMAIL: lawn@berlingskemedia.dk
+      NPM_CONFIG_USERNAME: wetendorff
+      NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      RELEASE_GH_TOKEN: ${{ RELEASE_GH_TOKEN }}
+      RELEASE_GH_USERNAME: wetendorff
+    steps:
+      - uses: action/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: lerna bootstrap
+      - run: npm run semantic-release
