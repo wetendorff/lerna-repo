@@ -5,20 +5,14 @@ on:
 
 jobs:
   release:
-    name: "Release packages"
+    name: "Release"
     runs-on: ubuntu-18.04
-    env:
-      NPM_CONFIG_EMAIL: lawn@berlingskemedia.dk
-      NPM_CONFIG_USERNAME: wetendorff
-      NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      RELEASE_GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      RELEASE_GH_USERNAME: wetendorff
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - uses: m19c/action-lerna@1.0.0
+        with:
+          args: bootstrap
       - run: ls -la
-      - run: npm install
-      - run: npm run semantic-release
