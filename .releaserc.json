@@ -1,7 +1,7 @@
 {
   "branches": ["master"],
   "generateNotes": [
-    "semantic-release/release-notes-generator",
+    "@semantic-release/release-notes-generator",
     "semantic-release-lerna"
   ],
   "prepare": false,
