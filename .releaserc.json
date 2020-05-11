@@ -2,7 +2,7 @@
   "branches": ["master"],
   "generateNotes": [
     "@semantic-release/release-notes-generator",
-    "@smartive/semantic-release-lerna"
+    "semantic-release-lerna"
   ],
   "prepare": false,
   "extends": "@smartive/semantic-release-lerna/config"
