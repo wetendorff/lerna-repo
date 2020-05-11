@@ -4,6 +4,7 @@
     "@semantic-release/release-notes-generator",
     "@smartive/semantic-release-lerna"
   ],
+  "publish": ["@semantic-release/github", "@smartive/semantic-release-lerna"],
   "prepare": false,
   "extends": "@smartive/semantic-release-lerna/config"
 }
