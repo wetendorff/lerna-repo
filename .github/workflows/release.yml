@@ -17,3 +17,8 @@ jobs:
         with:
           args: bootstrap
       - run: ls -la
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release@17
