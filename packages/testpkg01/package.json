@@ -1,6 +1,6 @@
 {
   "name": "@wetendorff/testpkg01",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "Test package 1",
   "author": "Lars Wetendorff Nielsen <lawn@berlingskemedia.dk>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "ee4d195897f2c1b3bf6d0780fdd86b85a15790f4"
+  "gitHead": "658ce6d150c7e49fe6edad2018e6b1a54bc27392"
 }
