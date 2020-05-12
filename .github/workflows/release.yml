@@ -16,14 +16,6 @@ jobs:
       - uses: m19c/action-lerna@1.0.0
         with:
           args: bootstrap
-      - name: Authenticate with Registry
-        run: |
-          npm logout
-          echo "@wetendorff:registry=https://npm.pkg.github.com/" > .npmrc
-          echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> .npmrc
-          echo "registry=https://npm.pkg.github.com/" >> .npmrc
-        env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: ls -la
       - name: Create release
         env:
