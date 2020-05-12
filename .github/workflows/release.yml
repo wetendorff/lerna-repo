@@ -19,8 +19,8 @@ jobs:
         with:
           args: bootstrap
       - run: |
-          echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ./.npmrc
-          echo "registry=https://npm.pkg.github.com/" >> ./.npmrc
+          echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+          echo "registry=https://npm.pkg.github.com/" >> ~/.npmrc
           cat ~/.npmrc
           npm whoami
       - name: Create release
