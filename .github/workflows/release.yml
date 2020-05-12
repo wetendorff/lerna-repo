@@ -17,7 +17,8 @@ jobs:
         with:
           args: bootstrap
       - run: ls -la
-      - name: Authenticate with registry
+      - run:
+        name: Authenticate with registry
         command: echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
         command: npm whoami
         env:
