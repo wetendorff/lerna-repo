@@ -20,7 +20,7 @@ jobs:
       - run: echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm whoami
+      - run: npm whoami
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
