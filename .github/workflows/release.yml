@@ -16,11 +16,11 @@ jobs:
       - uses: m19c/action-lerna@1.0.0
         with:
           args: bootstrap
-      - run:
-        command: echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-        command: echo "registry=https://npm.pkg.github.com/" >> ~/.npmrc
-        command: cat ~/.npmrc
-        command: npm whoami
+      - run: |
+          echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+          echo "registry=https://npm.pkg.github.com/" >> ~/.npmrc
+          cat ~/.npmrc
+          npm whoami
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create release
