@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.5](https://github.com/wetendorff/lerna-repo/compare/v1.5.4...v1.5.5) (2020-05-12)
+
+
+### Bug Fixes
+
+* remove comment ([eace5e6](https://github.com/wetendorff/lerna-repo/commit/eace5e6be913b41037c6736f7f7de04fde667d5a))
+
+
+
+
+
 ## [1.5.4](https://github.com/wetendorff/lerna-repo/compare/v1.5.3...v1.5.4) (2020-05-12)
 
 **Note:** Version bump only for package root
