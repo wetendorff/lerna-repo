@@ -2,11 +2,12 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.5.21",
+  "version": "1.5.22",
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "forcePublish": true
+      "forcePublish": true,
+      "registry": "https://npm.pkg.github.com/"
     }
   }
 }
