@@ -1,13 +1,10 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "1.5.24",
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "forcePublish": true,
-      "registry": "https://npm.pkg.github.com/"
+      "forcePublish": true
     }
   }
 }

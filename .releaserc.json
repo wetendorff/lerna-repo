@@ -6,5 +6,6 @@
   ],
   "publish": ["@semantic-release/github", "@smartive/semantic-release-lerna"],
   "prepare": false,
-  "extends": "@smartive/semantic-release-lerna/config"
+  "extends": "@smartive/semantic-release-lerna/config",
+  "repositoryUrl": "https://github.com/wetendorff/lerna-repo.git"
 }

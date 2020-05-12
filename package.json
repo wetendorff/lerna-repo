@@ -20,9 +20,6 @@
   },
   "dependencies": {},
   "version": "0.0.0-development",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wetendorff/lerna-repo.git"
