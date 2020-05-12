@@ -21,7 +21,7 @@
   "dependencies": {},
   "version": "0.0.0-development",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/wetendorff"
   },
   "repository": {
     "type": "git",
