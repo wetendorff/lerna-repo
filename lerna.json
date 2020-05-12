@@ -4,7 +4,8 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "registry": "https://npm.pkg.github.com"
+      "registry": "https://npm.pkg.github.com/wetendorff",
+      "forcePublish": true
     }
   }
 }
