@@ -13,14 +13,16 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+          scope: wetendorff
       - run: npm ci
       - uses: m19c/action-lerna@1.0.0
         with:
           args: bootstrap
-      - run: ls -la
       - run: echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: echo "@wetendorff:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+      - run: cat ~/.npmrc
       - run: npm whoami
       - name: Create release
         env:
