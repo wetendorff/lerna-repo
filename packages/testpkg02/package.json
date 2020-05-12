@@ -1,6 +1,6 @@
 {
   "name": "@wetendorff/testpkg02",
-  "version": "1.5.17",
+  "version": "1.5.18",
   "description": "Test package 2",
   "keywords": [],
   "author": "Lars Wetendorff Nielsen <lawn@berlingskemedia.dk>",
@@ -12,12 +12,16 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wetendorff/lerna-repo.git",
+    "directory": "packages/testpgk01"
+  },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "cacd7577b06373ebb8d598e5f0a04e77d2acc3c4"
+  "gitHead": "3c4ac012016402d0c8b603342c53c28e9e092f72"
 }
