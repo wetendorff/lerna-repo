@@ -17,6 +17,15 @@ jobs:
         with:
           args: bootstrap
       - run: ls -la
+      - name: Authenticate with Registry
+        run: |
+          npm logout
+          echo "@wetendorff:registry=https://npm.pkg.github.com/" > .npmrc
+          echo "registry=https://npm.pkg.github.com/" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> .npmrc
+          npm whoami
+        env:
+          NPM_TOKEN: ${{ secret.NPM_TOKEN }}
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
